@@ -1,1 +1,5 @@
-console.log("あああ")
+window.addEventListener('DOMContentLoaded', init);
+
+function init() {
+    console.log("あああ")
+}
