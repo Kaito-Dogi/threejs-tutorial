@@ -32,4 +32,16 @@ function init() {
 
   // 描画
   renderer.render(scene, camera);
+
+  tick();
+
+  function tick() {
+    requestAnimationFrame(tick);
+
+    // 箱の回転
+    box.rotation.x += 0.01;
+    box.rotation.y += 0.01;
+
+    renderer.render(scene, camera);
+  }
 }
