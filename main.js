@@ -1,5 +1,6 @@
-window.addEventListener('DOMContentLoaded', init);
+window.addEventListener("DOMContentLoaded", init);
 
 function init() {
-	console.log("あああ")
+  const width = 960;
+  const height = 540;
 }
